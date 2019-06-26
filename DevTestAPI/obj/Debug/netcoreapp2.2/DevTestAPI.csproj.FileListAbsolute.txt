@@ -1,0 +1,14 @@
+e:\TAL-Coding-Exercise\DevTestAPI\bin\Debug\netcoreapp2.2\DevTestAPI.deps.json
+e:\TAL-Coding-Exercise\DevTestAPI\bin\Debug\netcoreapp2.2\DevTestAPI.runtimeconfig.json
+e:\TAL-Coding-Exercise\DevTestAPI\bin\Debug\netcoreapp2.2\DevTestAPI.runtimeconfig.dev.json
+e:\TAL-Coding-Exercise\DevTestAPI\bin\Debug\netcoreapp2.2\DevTestAPI.dll
+e:\TAL-Coding-Exercise\DevTestAPI\bin\Debug\netcoreapp2.2\DevTestAPI.pdb
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.csprojAssemblyReference.cache
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.csproj.CoreCompileInputs.cache
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.RazorAssemblyInfo.cache
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.RazorAssemblyInfo.cs
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.AssemblyInfoInputs.cache
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.AssemblyInfo.cs
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.RazorTargetAssemblyInfo.cache
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.dll
+e:\TAL-Coding-Exercise\DevTestAPI\obj\Debug\netcoreapp2.2\DevTestAPI.pdb
