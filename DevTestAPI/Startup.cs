@@ -29,10 +29,16 @@ namespace DevTestAPI
         public void ConfigureServices(IServiceCollection services)
         {
             //configure CORS to make this API Calls works fine with other applications...
-            services.AddCors(option => option.AddPolicy("MyTestPolicy", builder => {
-                builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-
-            }));
+           services.AddCors(options =>
+    {
+        options.AddPolicy("MyAllowSpecificOrigins",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+        });
+    });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             // Added DEPENDENCY INJECTION...
             services.AddDbContext<TALTestDBContext>(item => item.UseSqlServer(Configuration.GetConnectionString("TALTestDBConnection")));
@@ -56,6 +62,7 @@ namespace DevTestAPI
                     options => options.WithOrigins(
                     "http://localhost:4200").AllowAnyMethod().AllowAnyHeader()
                 );// CORS policy inside the Configure method...
+                app.UseCors();
             app.UseMvc();
         }
     }
