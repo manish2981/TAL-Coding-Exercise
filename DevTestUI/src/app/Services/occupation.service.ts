@@ -12,7 +12,7 @@ export class OccupationService {
   constructor(private http: HttpClient) { }
 
   getOccupationList() {
-    return this.http.get<Occupation[]>(ROOT_URL + '/occupation/GetOccupations');
+    return this.http.get<Occupation[]>(ROOT_URL + 'occupation/GetOccupations');
   }
 
 }
