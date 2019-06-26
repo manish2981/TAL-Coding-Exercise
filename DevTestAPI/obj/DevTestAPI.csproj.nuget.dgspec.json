@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj": {}
+    "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj": {}
   },
   "projects": {
-    "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj": {
+    "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
+        "projectUniqueName": "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
         "projectName": "DevTestAPI",
-        "projectPath": "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
+        "projectPath": "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "e:\\TAL-Coding-Exercise\\DevTestAPI\\obj\\",
+        "outputPath": "E:\\TAL-Coding-Exercise\\DevTestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

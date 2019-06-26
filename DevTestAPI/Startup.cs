@@ -34,6 +34,7 @@ namespace DevTestAPI
 
             }));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            // Added DEPENDENCY INJECTION...
             services.AddDbContext<TALTestDBContext>(item => item.UseSqlServer(Configuration.GetConnectionString("TALTestDBConnection")));
             services.AddScoped<IOccupationRepository, OccupationRepository>();
         }
@@ -51,7 +52,10 @@ namespace DevTestAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseCors("MyTestPolicy");  // CORS policy inside the Configure method...
+             app.UseCors(
+                    options => options.WithOrigins(
+                    "http://localhost:4200").AllowAnyMethod().AllowAnyHeader()
+                );// CORS policy inside the Configure method...
             app.UseMvc();
         }
     }
