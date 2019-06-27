@@ -10,14 +10,14 @@
         "projectUniqueName": "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
         "projectName": "DevTestAPI",
         "projectPath": "E:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\malhotm\\.nuget\\packages\\",
         "outputPath": "E:\\TAL-Coding-Exercise\\DevTestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\malhotm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
