@@ -28,7 +28,7 @@
                 </mat-form-field>
                 <mat-form-field >
                     <mat-select placeholder="Occupation List" [disabled]="!customerForm.valid" formControlName="occupation" (selectionChange)="calculatePremium($event)">
-                        <mat-option *ngFor="let option of options2" [value]="option.occupationid">
+                        <mat-option *ngFor="let option of occupationList" [value]="option.occupationid">
                           {{ option.occupation }}
                         </mat-option>
                       </mat-select>
