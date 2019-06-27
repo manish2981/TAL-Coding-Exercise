@@ -13,52 +13,8 @@ export class AppComponent implements OnInit{
   title = 'DevTestUI';
   isEditable: boolean = true;
   customerForm: FormGroup;
-  occupationList: any;
-  occupationList1: FormArray;
-  // public options2 =[
-  //   {
-  //   occupationid : '1',
-  //   occupation : 'Cleaner',
-  //   Rating: 'Light Manual',
-  //   RatingId:'3',
-  //   Factor:'1.50'
-  //   },
-  //   {
-  //     occupationid : '2',
-  //     occupation : 'Doctor',
-  //     Rating: 'Professional',
-  //     RatingId:'1',
-  //     Factor:'1.0'
-  //   },
-  //   {
-  //     occupationid : '3',
-  //     occupation : 'Author',
-  //     Rating: 'White Collar',
-  //     RatingId:'2',
-  //     Factor:'1.25'
-  //   },
-  //   {
-  //     occupationid : '4',
-  //     occupation : 'Farmer',
-  //     Rating: 'Heavy Manual',
-  //     RatingId:'4',
-  //     Factor:'1.75'
-  //   },
-  //   {
-  //     occupationid : '5',
-  //     occupation : 'Mechanic',
-  //     Rating: 'Heavy Manual',
-  //     RatingId:'4',
-  //     Factor:'1.75'
-  //   },
-  //   {
-  //     occupationid : '6',
-  //     occupation : 'Florist',
-  //     Rating: 'Light Manual',
-  //     RatingId:'3',
-  //     Factor:'1.50'
-  //   }];
-  // selected2 = this.occupationList[0].occupationid;
+  occupationList: Observable<Occupation[]>;
+  
   constructor(private fb: FormBuilder, private dataService: OccupationService) {
     this.createForm();
   }
@@ -78,7 +34,10 @@ export class AppComponent implements OnInit{
 
 
   ngOnInit() {
-        this.occupationList = this.dataService.getOccupationList().subscribe(res=>res);
+          this.dataService.getOccupationList().subscribe(data => {
+          console.log(data)
+          this.occupationList = data;
+        }, error => console.log(error));
         console.log(this.occupationList);
   }
 

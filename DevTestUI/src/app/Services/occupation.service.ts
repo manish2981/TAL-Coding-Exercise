@@ -12,7 +12,7 @@ export class OccupationService {
   occupations: Observable<Occupation[]>;
   constructor(private http: HttpClient) { }
 
-  getOccupationList() {
+  getOccupationList(): Observable<any>  {
      return this.http.get<Occupation[]>(ROOT_URL + 'occupation/GetOccupations');
 
       // Below is the commented Code

@@ -1,7 +1,7 @@
 
 export class  Occupation{
     
-occupationId:string;
+occupationId:number;
 occupation:string ;
 ratingid:string;
 rating:number;
