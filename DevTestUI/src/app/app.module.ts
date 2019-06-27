@@ -9,6 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatDatepickerModule} from '@angular/material';
+import {MatNativeDateModule} from '@angular/material';
+import {MatCardModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import {MatInputModule} from '@angular/material/input';
     HttpClientModule,
     BrowserAnimationsModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatDatepickerModule, 
+    MatNativeDateModule,
+    MatCardModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
