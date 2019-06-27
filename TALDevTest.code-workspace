@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "DevTestUI"
+		},
+		{
+			"path": "xUnitTest.Tests"
 		}
 	],
 	"settings": {}

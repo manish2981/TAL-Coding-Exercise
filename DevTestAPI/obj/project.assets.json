@@ -12089,7 +12089,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\malhotm\\.nuget\\packages\\": {},
+    "C:\\Users\\admin-malhotm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12098,14 +12098,14 @@
       "projectUniqueName": "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
       "projectName": "DevTestAPI",
       "projectPath": "e:\\TAL-Coding-Exercise\\DevTestAPI\\DevTestAPI.csproj",
-      "packagesPath": "C:\\Users\\malhotm\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\admin-malhotm\\.nuget\\packages\\",
       "outputPath": "e:\\TAL-Coding-Exercise\\DevTestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\malhotm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin-malhotm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
