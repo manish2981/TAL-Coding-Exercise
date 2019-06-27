@@ -1,0 +1,17 @@
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.csprojAssemblyReference.cache
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.csproj.CoreCompileInputs.cache
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.AssemblyInfoInputs.cache
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.AssemblyInfo.cs
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xUnitTest.Tests.deps.json
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xUnitTest.Tests.runtimeconfig.json
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xUnitTest.Tests.runtimeconfig.dev.json
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xUnitTest.Tests.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\xUnitTest.Tests.pdb
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\DevTestAPI.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\bin\Debug\netcoreapp2.2\DevTestAPI.pdb
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.csproj.CopyComplete
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.dll
+e:\TAL-Coding-Exercise\xUnitTest.Tests\obj\Debug\netcoreapp2.2\xUnitTest.Tests.pdb
