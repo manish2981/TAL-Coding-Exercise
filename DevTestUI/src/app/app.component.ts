@@ -45,7 +45,7 @@ export class AppComponent implements OnInit{
             var filteredItems = Object.assign([], this.occupationList).filter(
                                 item => item.occupationid.toLowerCase().indexOf(event.value) > -1);
             console.log(filteredItems);
-            var totalPremium = (this.customerForm.get('sumInsured').value * this.customerForm.get('age').value * filteredItems[0]['Factor'])/(1000*12);
+            var totalPremium = (this.customerForm.get('sumInsured').value * this.customerForm.get('age').value * filteredItems[0]['Factor'])/1000 * 12;
             this.customerForm.controls['totalPremium'].setValue(totalPremium);
     }
   }
